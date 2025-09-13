@@ -365,8 +365,8 @@ html {
     padding: 0 10px;
     border: none;
     border-radius: 5px;
-    background: white;
-    color: rgba(73, 234, 242, 0.75);
+    color: white;
+    background: rgba(73, 234, 242, 0.75);
     cursor: pointer;
     transition: 0.3s;
     font-size: 15px;
