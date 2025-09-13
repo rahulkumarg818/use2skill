@@ -3,138 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <title>Use2skill</title>
+
+    <!--  Stylesheets -->
     <link rel="stylesheet" href="style.css">
+
+    <!--  Font Awesome (Icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!--  Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+
+<!--  Header Section -->
 <header class="header">
     <section id="header-section">
+        <!--  Logo -->
         <div class="header-left">
-            <a href="index.html"><img src="public/images/logo.png" alt="logo" width="150px"></a>
-
+            <a href="index.html">
+                <img src="public/images/logo.png" alt="logo" width="150px">
+            </a>
         </div>
+
+        <!--  Navigation -->
         <div>
             <ul class="header-list">
-                <li class="search-box">
-                    <label>
-                        <input type="text" placeholder="what do you need...">
-                    </label>
-                    <button ><i class="fas fa-search"></i></button></li>
-
-                <li><a href="practice.html" >Practice</a></li>
-                <li><a href="index.html" >Learn</a></li>
-                <li><a href="contact.html" >Contact</a></li>
-
+                <!--  Nav Links -->
+                <li><a href="practice.html">Practice</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><button>Sign in</button></li>
             </ul>
         </div>
     </section>
+
+    <!--  Hero Section -->
     <section id="hero">
         <div class="hero-text">
             <h1>Welcome To use2skill</h1>
             <h2>One stop for all Programming Fundamentals</h2>
         </div>
         <div>
-            <img src="public/images/back.png" alt="back" >
+            <img src="public/images/back.png" alt="back">
         </div>
     </section>
 </header>
-    <section id="body-section">
-         <div class="body">
-             <h1>Get Ready to Level Up your Skills</h1>
-             <p>Comprehensive learning paths for DSA, Coding Language and Foundations</p>
-             </div>
-    </section>
-    <section class="cards">
-        <div class="frost-card">
-            <h1>Practice DSA</h1>
-            <p>Learn Data Structures and Algorithms systematically with
-                step-by-step guidance, examples, and hands-on practice here only with confidence.</p>
-            <button>Start DSA</button>
-        </div>
 
-        <div class="frost-card">
-            <h1>Learn Coding</h1>
-            <p>Master coding in any language with ease by learning fundamental concepts, best practices,
-                and applying them through practical examples.</p>
+<!--  Body Section -->
+<section id="body-section">
+    <div class="body">
+        <h1>Get Ready to Level Up your Skills</h1>
+        <p>Comprehensive learning paths for DSA, Coding Language and Foundations</p>
+    </div>
+</section>
+
+<!--  Frosted Glass Cards -->
+<section class="cards">
+    <!--  Card 1 -->
+    <div class="frost-card">
+        <h1>Practice DSA</h1>
+        <p>Learn Data Structures and Algorithms systematically with step-by-step guidance, examples, and hands-on practice here only with confidence.</p>
+        <a href="practice.html">
+            <button class="solve-btn">DSA</button>
+        </a>
+    </div>
+
+    <!--  Card 2 -->
+    <div class="frost-card">
+        <h1>Learn Coding</h1>
+        <p>Master coding in any language with ease by learning fundamental concepts, best practices, and applying them through practical examples.</p>
+        <a href="https://www.codedex.io/python" target="_blank">
             <button>Start Code</button>
-        </div>
+        </a>
+    </div>
 
-        <div class="frost-card ">
-            <h1>Learn Fundamentals</h1>
-            <p>Practice OOP fundamentals, understand their real-world applications,
-                and strengthen your design skills through structured examples.</p>
+    <!--  Card 3 -->
+    <div class="frost-card">
+        <h1>Learn Fundamentals</h1>
+        <p>Practice OOP fundamentals, understand their real-world applications, and strengthen your design skills through structured examples.</p>
+        <a href="https://www.theboringeducation.com/shiksha/logic-building-for-everyone" target="_blank">
+            <button class="solve-btn">Fundamental</button>
+        </a>
+    </div>
 
-            <button>Fundamental</button>
-        </div>
-
-        <div class="frost-card">
-            <h1>CheatSheet</h1>
-            <p>Prepare compelling stories using the STAR method to clearly
-                demonstrate your experiences, problem-solving abilities, and impact.</p>
-
+    <!--  Card 4 -->
+    <div class="frost-card">
+        <h1>CheatSheet</h1>
+        <p>Prepare compelling stories using the STAR method to clearly demonstrate your experiences, problem-solving abilities, and impact.</p>
+        <a href="https://overapi.com/"target="_blank">
             <button>Get Sheet</button>
-        </div>
-    </section>
-    <section id="features-section">
-        <div>
-            <h1>Know Features</h1>
-            <p>Everything you need to skilled-up your coding</p>
-        </div>
-        </section>
-        <section id="features-list">
-        <div class="feature-list list-1">
-            <h2>Free Access</h2>
-            <p>Access most features including problems, solutions, resources completely free.</p>
+        </a>
+    </div>
+</section>
+
+<!--  Features Section -->
+<section id="features-section">
+    <div>
+        <h1>Know Features</h1>
+        <p>Everything you need to skill-up your coding</p>
+    </div>
+</section>
+
+<!--  Features List -->
+<section id="features-list">
+    <div class="feature-list list-1">
+        <h2>Free Access</h2>
+        <p>Access most features including problems, solutions, resources completely free.</p>
+    </div>
+
+    <div class="feature-list list-2">
+        <h2>Pattern Recognition</h2>
+        <p>Develop your problem-solving intuition by learning to recognize common patterns across different coding problems.</p>
+    </div>
+
+    <div class="feature-list list-3">
+        <h2>Structured Learning</h2>
+        <p>Follow curated problem sets tailored to your preparation time, whether you have over three months or less than a month.</p>
+    </div>
+
+    <div class="feature-list list-4">
+        <h2>Complete Solutions</h2>
+        <p>Master each coding problem with intuitive explanations, multiple solution approaches, and time complexity analysis.</p>
+    </div>
+
+    <div class="feature-list list-5">
+        <h2>Search / Filter Problems</h2>
+        <p>Filter problems by pattern, status, difficulty level or search a specific problem by keyword.</p>
+    </div>
+
+    <div class="feature-list list-6">
+        <h2>Progress Tracking</h2>
+        <p>Keep track of your progress by marking problems as completed or starring them for revision.</p>
+    </div>
+</section>
+
+<!--  Creator Section -->
+<section id="creator">
+    <div>
+        <h1>About The Creator</h1>
+    </div>
+</section>
+
+<!--  Creator Info Box -->
+<section id="creator-box">
+    <!--  Creator Image -->
+    <div>
+        <img src="public/images/rahul.jpg" alt="pic">
+    </div>
+
+    <!--  Creator Details -->
+    <div class="creator-info">
+        <h2>Rahul Kumar</h2>
+        <h5>Hi! I'm a software engineer passionate about helping others excel in coding foundation and level up in their Engineering career.</h5>
+        <h5>After solving various coding problems across multiple platforms and going through it, I created use2skill to help make the learning process more systematic and enjoyable for everyone.</h5>
+
+        <!--  Social Links -->
+        <a href="https://www.linkedin.com/in/rahul-kumar-0b1222189" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/rahulkumarg818" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://x.com/KumarRahul7156" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/raahullkr" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://discord.com/users/539807172167467018" target="_blank"><i class="fa-brands fa-discord"></i></a>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-content">
+        <!-- Contact Section -->
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>Email : <a href="mailto:rahulkumarg818@gmail.com">rahulkumarg818@gmail.com</a></p>
+            <p>Phone : <a href="tel:+918709110932">+918709110932</a></p>
         </div>
 
-        <div class="feature-list list-2">
-            <h2>Pattern Recognition</h2>
-            <p>Develop your problem-solving intuition by learning to recognize common patterns across different coding problems.</p>
+        <!-- Newsletter Section -->
+        <div class="newsletter">
+            <h3>Subscribe to our Newsletter</h3>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
         </div>
+    </div>
 
-        <div class="feature-list list-3">
-            <h2>Structured Learning</h2>
-            <p>Follow curated problem sets tailored to your preparation time, whether you have over three months or less than a month.</p>
-        </div>
-
-        <div class="feature-list list-4">
-            <h2>Complete Solutions</h2>
-            <p>Master each coding problem with intuitive explanations, multiple solution approaches, and time complexity analysis.</p>
-        </div>
-        <div class="feature-list list-5">
-            <h2>Search / Filter Problems</h2>
-            <p>Filter problems by pattern, status, difficulty level or search a specific problem by keyword.</p>
-        </div>
-        <div class="feature-list list-6">
-            <h2>Progress Tracking</h2>
-            <p>Keep track of your progress by marking problems as completed or starring them for revision.</p>
-        </div>
-    </section>
-    <br>
-    <section id="creator">
-        <div>
-            <h1>About The Creator</h1>
-        </div>
-    </section>
-    <section id="creator-box">
-        <div>
-            <img src="public/images/rahul.jpg" alt="pic">
-        </div>
-        <div class="creator-info">
-            <h2>Rahul Kumar</h2>
-            <h5>Hi! I'm a software engineer passionate about helping others excel in coding foundation and level up in their Engineering career.</h5>
-            <h5>After solving various coding problems across multiple platforms and going through it, I created use2skill to help make the learning process more systematic and enjoyable for everyone.</h5>
-            <a  href="https://www.linkedin.com/in/rahul-kumar-0b1222189" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a  href="https://github.com/rahulkumarg818" target="_blank"><i class="fab fa-github"></i></a>
-            <a  href="https://x.com/KumarRahul7156" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-            <a  href="https://www.instagram.com/raahullkr" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://discord.com/users/yourusername" target="_blank"><i class="fa-brands fa-discord"></i></a>
-        </div>
-    </section>
+    <!-- Copyright -->
+    <p class="copyright">© 2025 All rights reserved</p>
+</footer>
 
 </body>
 </html>
